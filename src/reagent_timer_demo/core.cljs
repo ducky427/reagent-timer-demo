@@ -161,7 +161,7 @@
            "Eiusmod mollit nulla nisi ullamco fugiat ullamco ex commodo deserunt laboris velit velit. Voluptate velit dolor sint nulla commodo elit velit do aliquip laborum qui aute Lorem. Culpa commodo esse pariatur ex ea velit adipisicing ea non dolore occaecat incididunt ipsum. Aute anim duis in tempor. Voluptate adipisicing nulla eu mollit duis cillum voluptate proident.",
            "Non labore amet sunt pariatur elit eiusmod minim amet ut sunt ea reprehenderit commodo. Aliquip commodo dolore magna sit incididunt Lorem laborum ipsum aliquip do ad eiusmod aute. Culpa est labore labore voluptate sint velit. Dolore occaecat nulla dolor ut magna ad laborum sunt ipsum aliquip id elit. Incididunt adipisicing esse esse non qui ut commodo non Lorem ex ad eu Lorem labore. Cillum aliquip ipsum occaecat ipsum eiusmod est proident occaecat deserunt laboris."])
 
-(def INTERVAL 400)
+(def INTERVAL 600)
 
 (def app-state (reagent/atom {:search nil}))
 
