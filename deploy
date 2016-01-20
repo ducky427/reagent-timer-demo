@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 readonly TMP_DIR=$(mktemp -d /tmp/reagent-timer-demo.XXXXXX)
-readonly REPO=https://github.com/ducky427/reagent-timer-demo
+readonly REPO=https://github.com/ducky427/reagent-timer-demo.git
 readonly GIT="git -C $TMP_DIR"
 readonly COMMIT_MSG="Update to latest build"
 

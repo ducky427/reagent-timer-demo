@@ -5,7 +5,7 @@
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [org.clojure/clojurescript "1.7.228"]
                  [reagent "0.5.1"]
-                 [cljsjs/react-timer-mixin "0.13.2-0"]]
+                 [cljsjs/react-timer-mixin "0.13.2-1"]]
 
   :node-dependencies [[source-map-support "0.2.8"]]
 
@@ -36,7 +36,7 @@
                       :plugins [[lein-ancient "0.6.8"]
                                 [lein-kibit "0.1.2"]
                                 [lein-cljfmt "0.3.0"]
-                                [lein-figwheel "0.5.0-2"]]}
+                                [lein-figwheel "0.5.0-3"]]}
 
              :production {:cljsbuild {:builds {:app {:source-paths ["env/prod"]
                                                      :compiler {:main "reagent-timer-demo.prod"
